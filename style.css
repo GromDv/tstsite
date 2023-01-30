@@ -1,0 +1,67 @@
+.wrapper {
+    display: block;
+    max-width: 1280px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.wrapper h1 {
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    font-size: 53px;
+    color: white;
+}
+
+header {
+    width: 100%;
+}
+
+menu {
+    display: flex;
+    list-style-type: none;
+    font-size: larger;
+    /* text-decoration: none; */
+    justify-content: space-evenly;
+    margin: 20px 10px;
+}
+
+main {
+    display:  flex;
+}
+
+.left-side {
+    border: 1px solid black;
+}
+
+.left-side img{
+    width:40%;
+    margin: 10px;
+}
+
+.left-side p {
+    margin: 10px;
+}
+.left-side h3 {
+    padding: 0 20px;
+}
+
+.content {
+    margin: 10px;
+}
+
+.footer {
+    display: flex;
+    background-color: antiquewhite;
+    margin-top: 10px;
+}
+
+.chat {
+    width:700px;
+
+}
+.rights {
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+}
