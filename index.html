@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт о чём-то интересном</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -74,10 +75,13 @@
             <div class="footer">
                 <div class="chat">
                     <h2>Чат</h2>
-                    <form action="index.html">
-                        <input type="text">
-                        <button type="submit">Отправить</button>
-                    </form>
+                    <div>
+                        <input type="text" id="newMess">
+                        <button type="submit" onclick="send();">Отправить</button>
+                    </div>
+                    <div id="chat">
+
+                    </div>
                     
                 </div>
                 <div class="info">
