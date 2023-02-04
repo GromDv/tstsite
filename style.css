@@ -65,3 +65,14 @@ main {
     text-align: center;
     margin: 5px;
 }
+.msg {
+	margin: 0 5px;
+/*	border: 1px solid grey;  */
+	padding: 0 5px;
+}
+.msg:before {
+	content: "\2023  ";
+}
+#chat {
+	margin: 5px 0;
+}

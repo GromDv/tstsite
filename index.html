@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт о чём-то интересном</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="index.js"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -76,7 +76,8 @@
                 <div class="chat">
                     <h2>Чат</h2>
                     <div>
-                        <input type="text" id="newMess">
+                        <input type="text" placeholder="ваше имя" id="name" size="12">
+                        <input type="text" id="newMess" placeholder="сообщение">
                         <button type="submit" onclick="send();">Отправить</button>
                     </div>
                     <div id="chat">
